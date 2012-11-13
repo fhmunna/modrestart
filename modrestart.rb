@@ -20,6 +20,6 @@ postData = Net::HTTP.post_form(
     }
 )
 
-puts postData
+#puts postData
 
 puts open('http://192.168.1.1/RestartDone.html').read
