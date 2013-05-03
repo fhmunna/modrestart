@@ -2,5 +2,13 @@
 
 A simple command line script to restart ZyXel MAX-206M1R and other series from the same family.
 
-__PS:__ This is the version written in PHP. Please switch to the Ruby branch to find the script written in Ruby. 
+# What did I do? 
+
+    cp modrestart.php ~/.bin/modrestart
+    chmod a+x modrestart
+    
+Then added `~/.bin` to my system path. 
+
+
+PS: I also wrote an experimental ruby version which could be found in the "ruby" branch of this repository. 
 
